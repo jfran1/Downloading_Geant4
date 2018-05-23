@@ -26,7 +26,7 @@ How to download and setup Geant4 on linux system
 * **mkdir geant4_build**
 
 ## Donwload some dependencies
-* **sudo apt-get install libx11-dev libxt-dev libxmu-dev libgl1-mesa-dev mesa-common-dev mesa-utils-extra libglapi-mesa libqt4-opengl libqt4-opengl-dev qt4-qmake libqt4-dev libxi-dev libxerces-c-dev libexpat1-dev **
+* __sudo apt-get install libx11-dev libxt-dev libxmu-dev libgl1-mesa-dev mesa-common-dev mesa-utils-extra libglapi-mesa libqt4-opengl libqt4-opengl-dev qt4-qmake libqt4-dev libxi-dev libxerces-c-dev libexpat1-dev__
 
 ## run cmake inside build folder
 1. **cd geant4_build**
@@ -38,3 +38,9 @@ How to download and setup Geant4 on linux system
 after 
 
 2. **make install -jN**
+
+## Adjust bashrc profile 
+1. __nano ~/.bashrc__
+2. At the end of file enter __source ~/Programs/geant4/geant4.10.04.p01_install/bin/geant4.sh__
+3. save and exit by pressing __Ctrl+o__ and __Ctrl+x__
+4. reset bash __source ~/.bashrc__
