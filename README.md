@@ -30,7 +30,7 @@ How to download and setup Geant4 on linux system
 
 ## run cmake inside build folder
 1. **cd geant4_build**
-2. **cmake -DCMAKE_INSTALL_PREFIX=../geant4.10.04.p01_install -DBUILD_STATIC_LIBS=ON -DGEANT4_BUILD_MULTITHREADED=ON -DGEANT4_USE_OPENGL_X11=ON -DGEANT4_USE_QT=ON -DGEANT4_INSTALL_DATA=ON -DGEANT4_USE_GDML=ON ../geant4.10.04.p01**
+2. __cmake -DCMAKE_INSTALL_PREFIX=../geant4.10.04.p01_install -DBUILD_STATIC_LIBS=ON -DGEANT4_BUILD_MULTITHREADED=ON -DGEANT4_USE_OPENGL_X11=ON -DGEANT4_USE_QT=ON -DGEANT4_INSTALL_DATA=ON -DGEANT4_USE_GDML=ON ../geant4.10.04.p01__
 
 ## Once complete run make and install
 1. **make -jN** (where N is an integer representing the number of cores one wants to use)
