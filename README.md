@@ -7,7 +7,7 @@ How to download and setup Geant4 on linux system
 3. **sudo apt-get install build-essential**
 
 ## Install CMake
-* **sudo apt-get install build-essential**
+* **sudo apt-get install cmake**
 ## Make Programs Folder
 * **mkdir Programs**
 
